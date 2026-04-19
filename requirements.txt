@@ -1,0 +1,23 @@
+# ==========================================
+# Environment: Multi-Spectral ESRGAN (RGB+NIR)
+# ==========================================
+
+# --- Core Deep Learning Framework ---
+# Required for the RRDBNet Generator, RaGAN Discriminator, and Loss functions
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Cloud Data Streaming & I/O ---
+# Required for bypassing Kaggle memory limits and streaming from the Hub
+datasets>=2.14.0
+huggingface-hub>=0.17.0
+
+# --- Computer Vision & Array Mathematics ---
+# Required for multi-spectral image slicing, resizing, and pixel operations
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# --- Utilities ---
+# Required for iteration tracking during the long ESRGAN training loops
+tqdm>=4.66.0

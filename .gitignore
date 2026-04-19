@@ -1,0 +1,20 @@
+# Environments
+.env
+.venv
+env/
+venv/
+__pycache__/
+
+# Datasets and Outputs
+/data
+/datasets
+/spectragan_dataset
+*.png
+*.jpg
+*.tif
+
+# Model Weights
+/weights
+/checkpoints
+*.pth
+*.pt

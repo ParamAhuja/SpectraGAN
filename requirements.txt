@@ -21,3 +21,5 @@ Pillow>=10.0.0
 # --- Utilities ---
 # Required for iteration tracking during the long ESRGAN training loops
 tqdm>=4.66.0
+
+scikit-image
